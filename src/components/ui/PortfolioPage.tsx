@@ -236,8 +236,8 @@ export default function PortfolioPage({ onEnter3dMode, gridColor }: PortfolioPro
                   <p className="text-[10px] font-mono text-cyan-400 mt-1 uppercase font-semibold">Directing premium tech challenges</p>
                 </div>
                  <div className="bg-slate-950/75 backdrop-blur-md border border-cyan-500/30 rounded-xl p-5">
-                  <h5 className="font-mono text-xs text-[#00f3ff] tracking-widest uppercase mb-1 font-bold">MARKETING CO-HEAD </h5>
-                  <p className="text-xs text-white uppercase font-bold tracking-wide"> MARKETING & NEGOTIATIONS// KIRAN & SINDHIYAT JE VAASTE</p>
+                  <h5 className="font-mono text-xs text-[#00f3ff] tracking-widest uppercase mb-1 font-bold">CO-HEAD </h5>
+                  <p className="text-xs text-white uppercase font-bold tracking-wide"> MARKETING & PR// KIRAN & SINDHIYAT JE VAASTE</p>
                   <p className="text-[10px] font-mono text-cyan-400 mt-1 uppercase font-semibold">Getting brands onboard for sponsorships</p>
                 </div>
               </div>
@@ -356,13 +356,10 @@ export default function PortfolioPage({ onEnter3dMode, gridColor }: PortfolioPro
                       <span className="font-mono text-[9px] text-[#00f3ff] tracking-widest uppercase px-2 py-0.5 bg-cyan-500/10 rounded border border-[#00f3ff]/40 font-bold">
                         {proj.category}
                       </span>
-                      <h4 className="font-mono text-sm sm:text-base font-bold tracking-widest mt-2 uppercase text-white hover:text-neon-blue transition duration-300">
+                      <h4 className="font-mono text-sm sm:text-base font-bold tracking-widest mt-2 uppercase text-white hover:text-cyan-400 transition duration-300">
                         {proj.title}
                       </h4>
                     </div>
-                    <button className="p-2 bg-slate-900 hover:bg-neon-blue/20 border border-white/10 hover:border-[#00f3ff] rounded text-gray-200 hover:text-white transition duration-300 cursor-pointer">
-                      <ExternalLink size={13} />
-                    </button>
                   </div>
 
                   <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-sans font-medium">
@@ -407,10 +404,10 @@ export default function PortfolioPage({ onEnter3dMode, gridColor }: PortfolioPro
                   <span>kritikapenta15@gmail.com</span>
                 </a>
                 <div className="flex gap-3 mt-2 pr-4 text-slate-350">
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-900 hover:bg-neon-blue/15 border border-white/10 hover:border-cyan-400 rounded text-slate-200 hover:text-white transition cursor-pointer">
+                  <a href="https://github.com/Kritika6520" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-900 hover:bg-neon-blue/15 border border-white/10 hover:border-cyan-400 rounded text-slate-200 hover:text-white transition cursor-pointer">
                     <Github size={14} />
                   </a>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-900 hover:bg-neon-blue/15 border border-white/10 hover:border-cyan-400 rounded text-slate-200 hover:text-white transition cursor-pointer">
+                  <a href="https://www.linkedin.com/in/kritika-penta-89ba8a317/" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-900 hover:bg-neon-blue/15 border border-white/10 hover:border-cyan-400 rounded text-slate-200 hover:text-white transition cursor-pointer">
                     <Linkedin size={14} />
                   </a>
                 </div>
@@ -439,7 +436,7 @@ export default function PortfolioPage({ onEnter3dMode, gridColor }: PortfolioPro
 
               {/* LinkedIn Button/Card */}
               <a 
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/kritika-penta-89ba8a317/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-slate-950/75 backdrop-blur-md border border-cyan-500/30 hover:border-cyan-400 rounded-xl p-6 sm:p-8 flex flex-col items-center justify-center text-center gap-4 transition-all duration-300 hover:scale-[1.03] hover:bg-slate-950/90 hover:shadow-[0_0_20px_rgba(0,243,255,0.4)] group cursor-pointer"
@@ -459,7 +456,7 @@ export default function PortfolioPage({ onEnter3dMode, gridColor }: PortfolioPro
 
               {/* GitHub Button/Card */}
               <a 
-                href="https://github.com"
+                href="https://github.com/Kritika6520"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-slate-950/75 backdrop-blur-md border border-cyan-500/30 hover:border-cyan-400 rounded-xl p-6 sm:p-8 flex flex-col items-center justify-center text-center gap-4 transition-all duration-300 hover:scale-[1.03] hover:bg-slate-950/90 hover:shadow-[0_0_20px_rgba(0,243,255,0.4)] group cursor-pointer"
