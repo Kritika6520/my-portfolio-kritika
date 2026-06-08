@@ -1,0 +1,6 @@
+{
+  "name": "Drone Cinematic Shot",
+  "description": "Phase 1 - A glowing neon wireframe 3D grid and city environment featuring post-processing bloom and a glassmorphic system telemetry overlay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
